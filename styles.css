@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: salmon;
+    justify-content: space-between;
+}
+.rightbar {
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid black;
+    align-items: center;
+}
+.leftbar {
+    margin: 20px;
+    flex-direction: row;
+    align-items: flex-start
+}
+.Logocontainer {
+    display: flex;
+    gap: 20px;
+
+
+}
+.SalmonLogo {
+    font-size: 32px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.layer1{
+    display: flex;
+    flex-direction: row;
+    background-color: salmon;
+    height: 450px;
+    
+    
+}
+.caughtsalmon {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   height: 300px;
+   width: 300px;
+   margin-top: 100px;
+   border-radius: 5px;
+   border: 2px solid black;
+   padding: 10px;
+   
+}
+.caughtsalmonCon {
+    display: flex;
+    align-items: center;
+}
+.money {
+    justify-content: center;
+    display: flex;
+}
+.info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+}
+.norefunds {
+    justify-content: center;
+    display: flex;
+}
+.lol {
+    justify-content: center;
+    display: flex;
+    font-size: 8px;
+}
+.layer2 {
+    background-color: salmon;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.imgcon {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.wordcon {
+    display: flex;
+    align-self: center;
+}
+.img1 {
+    display: flex;
+    border-radius: 5px;
+    border: 5px solid seagreen;
+    width: 25%;
+}
+.wordsunder {
+    display: flex;
+    justify-content: space-around;
+}
+.wordsunderunder {
+    display: flex;
+    justify-content: space-inbetween;
+    justify-content: flex-end;
+}
+.layer3 {
+    display: flex;
+    height: 100%;
+    background-color: aquamarine;    
+}
+.sign {
+    display: flex;
+    justify-content: flex-end;
+}
+.testamoney {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+}
